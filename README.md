@@ -16,7 +16,7 @@ Takes resume and job description produces keywords in resume and job description
 Takes a job description and personal info and produces a resume based off a latex template
 
 ### Match jobs
-Takes an indeed query and a resume and produces the jobs which are a best match (kinda like keyword analysis but to a shit ton of jobs)
+Takes an indeed query and a resume and produces the jobs which are a best match 
 
 
 
