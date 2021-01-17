@@ -17,3 +17,8 @@ Takes a job description and personal info and produces a resume based off a late
 
 ### Match jobs
 Takes an indeed query and a resume and produces the jobs which are a best match (kinda like keyword analysis but to a shit ton of jobs)
+
+
+
+Note: The Java front end and Python Scripts are not fully integrated as of now, however the individual python scripts all work
+
