@@ -1,4 +1,6 @@
-def RESUME_MAKER():
+import os
+
+def RESUME_MAKER(file_name):
     full_name = input('What is your full name: ')
     #job = input('What is your job Title: ')
     email = input('What is your email address: ')
@@ -219,7 +221,7 @@ def RESUME_MAKER():
         return formatted_education,  formatted_work, formatted_projects, formatted_skills
 
 
-    resumaster = open("Dev_Resume.txt","a")
+    resumaster = open(file_name + ".tex","a")
     resumaster.write(Prereqs)
     resumaster.write('\n')
     resumaster.write(r'\begin{document}')
@@ -239,6 +241,7 @@ def RESUME_MAKER():
     resumaster.write(d)
     resumaster.write(r'\end{document}')
     resumaster.close()
+    os.system("mv mylatex.pdf path/to/directory")
 
 if __name__ == '__main__':
     RESUME_MAKER()
