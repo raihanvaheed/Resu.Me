@@ -1,6 +1,6 @@
 # Resu.Me
 
-We are students studying at the University of Waterloo. One of the key features fo our program is the Co-op program which allows us to work in the middle of our education. However being a student and a job seeker at the same time can be very difficult. One of the problems students face in their job search in an inadequate résumé. Hence we aimed to create an application with feattures to help improve student résumés. As of January 17th 2020, ur features are:
+We are students studying at the University of Waterloo. One of the key features fo our program is the Co-op program which allows us to work in the middle of our education. However being a student and a job seeker at the same time can be very difficult. One of the problems students face in their job search in an inadequate résumé. Hence we aimed to create an application with feattures to help improve student résumés. As of January 17th 2020, our features are:
 
 ## Features: 
 1. Keyword Match and Replace 
@@ -17,8 +17,4 @@ Takes a job description and personal info and produces a resume based off a late
 
 ### Match jobs
 Takes an indeed query and a resume and produces the jobs which are a best match 
-
-
-
-Note: The Java front end and Python Scripts are not fully integrated as of now, however the individual python scripts all work
 
